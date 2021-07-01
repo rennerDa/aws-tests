@@ -1,0 +1,12 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.main = void 0;
+async function main(event) {
+    console.log('event 👉', event);
+    return {
+        body: JSON.stringify({ message: 'Successful lambda invocation. AWESOME' }),
+        statusCode: 200,
+    };
+}
+exports.main = main;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiaW5kZXguanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyJpbmRleC50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7QUFHTyxLQUFLLFVBQVUsSUFBSSxDQUN4QixLQUE2QjtJQUU3QixPQUFPLENBQUMsR0FBRyxDQUFDLFVBQVUsRUFBRSxLQUFLLENBQUMsQ0FBQztJQUUvQixPQUFPO1FBQ0wsSUFBSSxFQUFFLElBQUksQ0FBQyxTQUFTLENBQUMsRUFBQyxPQUFPLEVBQUUsdUNBQXVDLEVBQUMsQ0FBQztRQUN4RSxVQUFVLEVBQUUsR0FBRztLQUNoQixDQUFDO0FBQ0osQ0FBQztBQVRELG9CQVNDIiwic291cmNlc0NvbnRlbnQiOlsiLyogZXNsaW50LWRpc2FibGUgQHR5cGVzY3JpcHQtZXNsaW50L3JlcXVpcmUtYXdhaXQgKi9cbmltcG9ydCB7QVBJR2F0ZXdheVByb3h5RXZlbnRWMiwgQVBJR2F0ZXdheVByb3h5UmVzdWx0VjJ9IGZyb20gJ2F3cy1sYW1iZGEnO1xuXG5leHBvcnQgYXN5bmMgZnVuY3Rpb24gbWFpbihcbiAgZXZlbnQ6IEFQSUdhdGV3YXlQcm94eUV2ZW50VjIsXG4pOiBQcm9taXNlPEFQSUdhdGV3YXlQcm94eVJlc3VsdFYyPiB7XG4gIGNvbnNvbGUubG9nKCdldmVudCDwn5GJJywgZXZlbnQpO1xuXG4gIHJldHVybiB7XG4gICAgYm9keTogSlNPTi5zdHJpbmdpZnkoe21lc3NhZ2U6ICdTdWNjZXNzZnVsIGxhbWJkYSBpbnZvY2F0aW9uLiBBV0VTT01FJ30pLFxuICAgIHN0YXR1c0NvZGU6IDIwMCxcbiAgfTtcbn1cbiJdfQ==
